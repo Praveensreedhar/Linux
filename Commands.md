@@ -1,6 +1,6 @@
 ### See Logs
 
-#/usr/bin/python3.8
+#tail -f /var/log/syslog
 
 ### crontab
 
