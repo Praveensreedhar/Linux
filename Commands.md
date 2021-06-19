@@ -14,5 +14,13 @@ $ crontab -l
 
 $* * * * * cd Desktop && /usr/bin/python3.8 test.py >> test.out
 
+### Stop Cron Service
+
+$ /etc/init.d/cron stop
+
+### Start Cron service
+
+$ /etc/init.d/cron start
+
 
 ![image](https://user-images.githubusercontent.com/49310101/122632597-b114eb80-d088-11eb-888a-13c94bbdbefa.png)
