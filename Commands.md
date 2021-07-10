@@ -22,6 +22,13 @@ $ /etc/init.d/cron stop
 
 $ /etc/init.d/cron start
 
+## Sample-Config
+
+MAILTO=""
+* * * * * cd Desktop/Automation/Backup/ && python3 paloalto1.py >> test.out
+
+
+
 
 ![image](https://user-images.githubusercontent.com/49310101/122632597-b114eb80-d088-11eb-888a-13c94bbdbefa.png)
 
