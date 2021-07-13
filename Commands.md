@@ -24,7 +24,9 @@ $ /etc/init.d/cron start
 
 ## Sample-Config
 
-      MAILTO=""
+      MAILTO="" (avoidsend mail)
+      
+      
       * * * * * cd Desktop/Automation/Backup/ && python3 paloalto1.py >> test.out
 
       0 10 * * * /bin/python3 /Network/Config-Backup/backup.py
