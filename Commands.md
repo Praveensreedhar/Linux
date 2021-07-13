@@ -32,6 +32,8 @@ $ /etc/init.d/cron start
       0 10 * * * /bin/python3 /Network/Config-Backup/backup.py
 
 
+https://crontab.guru/
+
 ![image](https://user-images.githubusercontent.com/49310101/122632597-b114eb80-d088-11eb-888a-13c94bbdbefa.png)
 
 
