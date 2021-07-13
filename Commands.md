@@ -24,10 +24,10 @@ $ /etc/init.d/cron start
 
 ## Sample-Config
 
-MAILTO=""
-* * * * * cd Desktop/Automation/Backup/ && python3 paloalto1.py >> test.out
+      MAILTO=""
+      * * * * * cd Desktop/Automation/Backup/ && python3 paloalto1.py >> test.out
 
-
+      0 0 10 * * /bin/python3 /Network/Config-Backup/backup.py
 
 
 ![image](https://user-images.githubusercontent.com/49310101/122632597-b114eb80-d088-11eb-888a-13c94bbdbefa.png)
